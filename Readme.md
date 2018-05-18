@@ -21,7 +21,7 @@ Enter the directory where you want to create the project.
 Execute the following command in your terminal:
 
 ```shell
-pub-cli create
+pub-cli new
 ```
 
 Then select the project template and answer some questions.
