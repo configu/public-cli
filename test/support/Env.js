@@ -6,19 +6,19 @@ const del = require('del');
 const tmpDir = os.tmpdir();
 
 function getTempDirName() {
-    return path.resolve(tmpDir, 'public-cli-test');
+  return path.resolve(tmpDir, 'public-cli-test');
 }
 
 function getTempDir() {
-    const testDirName = getTempDirName();
-    mkdirp.sync(testDirName);
-    console.log(testDirName, ' is created');
-    return testDirName;
+  const testDirName = getTempDirName();
+  mkdirp.sync(testDirName);
+  console.log(testDirName, ' is created');
+  return testDirName;
 }
 
 function clearEnv() {
-    const testDirName = getTempDirName();
-    del.sync([testDirName], {force: true});
+  const testDirName = getTempDirName();
+  del.sync([testDirName], {force: true});
 }
 
 exports.getTempDir = getTempDir;
