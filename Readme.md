@@ -28,6 +28,7 @@ Then select the project template and answer some questions.
 
 ## Support Template
 
+- [x] react-library 
 - [x] koa2-server
 - [x] react-mobx
 - [x] react-redux

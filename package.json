@@ -1,14 +1,15 @@
 {
   "name": "public-cli",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/configu/public-cli.git"
+    "url": "https://github.com/wiseowner/public-cli.git"
   },
   "bin": {
     "pub-cli": "bin/public-cli"
   },
+  "author": "sunyongjian",
   "scripts": {
     "test": "mocha ./test/*.test.js ./test/**/*.test.js"
   },
